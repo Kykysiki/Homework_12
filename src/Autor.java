@@ -1,7 +1,7 @@
 public class Autor {
 
-    private String name;
-    private String surname;
+    private final String name;
+    private final String surname;
 
     public Autor (String name, String surname) {
         this.name = name;
